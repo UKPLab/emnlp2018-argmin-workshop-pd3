@@ -39,4 +39,18 @@ Don't hesitate to send us an e-mail or report an issue, if something is broken (
 
 **POS** Two yaml files for a sequence tagger are given in ``POS``. These contain the setups for the PD3-merge and PD3-mtl paradigms. To run the yaml files, install the Tensorflow Sequence Tagging architecture from [here](https://github.com/UKPLab/thesis2018-tk_mtl_sequence_tagging) and supply the yaml files as inputs. _NB_ The annotation projection step has to be done before-hand. Also, you need a bilingual word embedding file for English-French (some can be found [here](https://github.com/UKPLab/arxiv2018-xling-sentence-embeddings)).
 
-**ArgMin** 
+**ArgMin**
+The folder ``ArgMin`` contains the source code for our PD3 argumentation mining sentence-level experiments.
+A sample configuration is given in ```config.yaml```. Our other configurations only differ in the size of the parallel
+corpus, the source of the parallel corpus (PE or TED), and the used word embeddings (e.g., the ones we trained ourselves
+on small parallel data for a more realistic low-resource scenario).
+
+The framework is based on our general framework introduced in our work on
+[cQA answer selection](https://github.com/UKPLab/iwcs2017-answer-selection).
+Please see the linked repository for more documentation on the framework, required dependencies, and the configuration
+files.
+
+You can run all PD3 experiments in one single run:
+
+```python run_transfer.py config.yaml```
+ 
