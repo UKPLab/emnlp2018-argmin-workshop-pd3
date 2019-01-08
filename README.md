@@ -28,3 +28,11 @@ https://www.tu-darmstadt.de/
 
 
 Don't hesitate to send us an e-mail or report an issue, if something is broken (and it shouldn't be) or if you have further questions.
+
+## Data
+
+**POS** We provide some POS tagged data in ``POS/home/eger/projects/MTCODE_newcurriculum/mt-code/experiments/12_tensorflow_port/``. The data contains French and English data. The French data is automatically annotated using annotation projection (except for the test data).
+
+## Code
+
+**POS** Two yaml files for a sequence tagger are given in ``POS``. These contain the setups for the PD3-merge and PD3-mtl paradigms. To run the yaml files, install the Tensorflow Sequence Tagging architecture from [here](https://github.com/UKPLab/thesis2018-tk_mtl_sequence_tagging) and supply the yaml files as inputs.
