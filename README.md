@@ -1,6 +1,6 @@
 # PD3: Better Low-Resource Cross-Lingual Transfer By Combining Direct Transfer and Annotation Projection 
 
-This repository contains selected code and data for our EMNLP Argumentation Mining Workshop paper on [Better Low-Resource Cross-Lingual Transfer By Combining Direct Transfer and Annotation Projection](https://aclanthology.coli.uni-saarland.de/papers/W18-5216/w18-5216). 
+This repository contains selected code and data for our EMNLP Argumentation Mining Workshop paper on [Better Low-Resource Cross-Lingual Transfer By Combining Direct Transfer and Annotation Projection](http://aclweb.org/anthology/W18-5216). 
 
 ## Citation 
 
