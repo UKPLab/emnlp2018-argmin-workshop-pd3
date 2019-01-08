@@ -33,6 +33,10 @@ Don't hesitate to send us an e-mail or report an issue, if something is broken (
 
 **POS** We provide some POS tagged data in ``POS/home/eger/projects/MTCODE_newcurriculum/mt-code/experiments/12_tensorflow_port/``. The data contains French and English data. The French data is automatically annotated using annotation projection (except for the test data).
 
+**ArgMin**
+
 ## Code
 
-**POS** Two yaml files for a sequence tagger are given in ``POS``. These contain the setups for the PD3-merge and PD3-mtl paradigms. To run the yaml files, install the Tensorflow Sequence Tagging architecture from [here](https://github.com/UKPLab/thesis2018-tk_mtl_sequence_tagging) and supply the yaml files as inputs.
+**POS** Two yaml files for a sequence tagger are given in ``POS``. These contain the setups for the PD3-merge and PD3-mtl paradigms. To run the yaml files, install the Tensorflow Sequence Tagging architecture from [here](https://github.com/UKPLab/thesis2018-tk_mtl_sequence_tagging) and supply the yaml files as inputs. _NB_ The annotation projection step has to be done before-hand. Also, you need a bilingual word embedding file for English-French (some can be found [here](https://github.com/UKPLab/arxiv2018-xling-sentence-embeddings)).
+
+**ArgMin** 
