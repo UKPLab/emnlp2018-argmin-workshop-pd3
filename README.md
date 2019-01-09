@@ -50,7 +50,7 @@ The framework is based on our general framework introduced in our work on
 Please see the linked repository for more documentation on the framework, required dependencies, and the configuration
 files.
 
-You can run all PD3 experiments in one single run:
+You can run all ArgMin PD3 experiments in one single run:
 
 ```python run_transfer.py config.yaml```
  
